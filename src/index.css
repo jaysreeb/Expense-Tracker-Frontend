@@ -1,0 +1,9 @@
+@layer theme, base, mui, components, utilities;
+@import 'tailwindcss';
+
+
+body{
+    @apply bg-no-repeat bg-cover bg-center min-h-screen;
+    /* background-image: url("/src/assets/images/3235319.jpg"); */
+    background-color: rgb(238, 232, 225);
+}
